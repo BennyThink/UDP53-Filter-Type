@@ -3,7 +3,14 @@ import socket
 HOST = '123.206.87.223'
 PORT = 53
 
-#Welcome information
+
+def send_data(data):
+        sock_clt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock_clt.connect((HOST, PORT))
+        sock_clt.send(data)
+        sock_clt.close()
+
+
 print
 print '============= Benny\'s UDP 53 Filter Type Test =============='
 print
@@ -20,11 +27,6 @@ print '============================================================='
 print
 print '----------------------  Start Testing  ----------------------'
 
-def send_data(data):
-        sock_clt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sock_clt.connect((HOST, PORT))
-        sock_clt.send(data)
-        sock_clt.close()
 try:
 	send_data('Hi')
 except socket.error as e:	
@@ -32,7 +34,6 @@ except socket.error as e:
 else:
 	print "That cannot happen!"
 	
-
 if '10061'in str(e) or '111' in str(e):
 	print ':-) Congratulations, you may wanna try OpenVPN!'
 	print 'Visit https://www.bennythink.com/udp53.html for more info.'
