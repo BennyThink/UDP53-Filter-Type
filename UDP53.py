@@ -21,7 +21,7 @@ print 'If your hostpot allows any kind of UDP Packet via Port 53,   '
 print 'you may wanna setup an OpenVPN server to bypass Web Auth;    '
 print 'if not, DNS Tunnel is actually a bad option.'
 print
-print '                                              By Benny 2016  '
+print '                                     By Benny with love 2017 '
 print '                                   https://www.bennythink.com'
 print '============================================================='
 print
