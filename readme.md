@@ -6,6 +6,7 @@ What's the purpose?
 =====
 The good news is, if your hostpot DOES NOT filter any kind of UDP 53 Packet,
 you may wanna setup an OpenVPN server with UDP 53 in order to bypass Web Auth so you could surf the internet without paying fees.
+**Sometimes under some rare conditions the test just went wrong, so you may wanna test it a few times to make it more accurate.**
 
 What's that IP Address?
 =====
@@ -22,11 +23,11 @@ I don't have Python installed on my Windows!
 Well,you have to download and open the `dist` directory. By then you'll see an `udp.exe`.
 Double-click it!
 
-I want to compile exe file by myself.
+I want to build exe file by myself.
 =====
 Ok, install Python and corresponding version of py2exe.
 Then cd to git directory, run:
-`python "compile exe.py" py2exe`
+`python build_exe.py py2exe`
 
 Environment
 =====
