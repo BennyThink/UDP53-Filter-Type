@@ -37,10 +37,13 @@ else:
 
 if '10061' in str(e) or '111' in str(e):
     print ':-) Congratulations, you may wanna try OpenVPN!'
-    print 'Visit https://www.bennythink.com/udp53.html for more info.'
+    print 'Visit https://www.bennythink.com/udp53.html for more info.\n'
+    raw_input('Press Enter to exit.')
 elif '10060' in str(e) or '110' in str(e):
     print ':-) Sad face, but DNS Tunnel is an option.'
-    print 'Visit https://www.bennythink.com/udp53.html for more info.'
+    print 'Visit https://www.bennythink.com/udp53.html for more info.\n'
+    raw_input('Press Enter to exit.')
 else:
     print ':-('
-    print 'You probably forget to connect to a Wi-Fi hotspot.'
+    print 'You probably forget to connect to a Wi-Fi hotspot.\n'
+    raw_input('Press Enter to exit.')
