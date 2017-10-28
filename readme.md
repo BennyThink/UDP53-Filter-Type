@@ -6,7 +6,7 @@ What's the purpose?
 =====
 The good news is, if your hostpot DOES NOT filter any kind of UDP 53 Packet,
 you may wanna setup an OpenVPN server with UDP 53 in order to bypass Web Auth so you could surf the internet without paying fees.
-**Sometimes under some rare conditions the test just went wrong, so you may wanna test it a few times to make it more accurate.**
+**Sometimes under some rare conditions the test just went wrong, so you may wanna test it a few times to make it more accurate.** 
 
 What's that IP Address?
 =====
