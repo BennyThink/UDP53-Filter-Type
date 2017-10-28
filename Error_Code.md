@@ -1,5 +1,5 @@
 ## What's this?
-Error code when testing.
+Error code when testing, for Windows and Linux(macOS not tested.)
 
 ## Error code when you may wanna try OpenVPN
 ### Linux
