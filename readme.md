@@ -32,6 +32,7 @@ Then cd to git directory, run:
 Environment
 =====
 Windows/Linux with Python 2.7 test passed.
+Also support Python 3.6
 
 License
 =====
