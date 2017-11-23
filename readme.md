@@ -12,6 +12,11 @@ What's that IP Address?
 =====
 Wow, you got me! That IP is my server to perform the acknowledgement. It's a sad 
 news I haven't found a public server that could meet my needs. So, don't DDoS it.
+By the way, this server is about to close(in a few months). I'm looking for alternatives.
+
+socket.SOCK_STREAM
+=====
+Yes, the script will try to connect to my server via TCP53. If it allows TCP53, then it must always apply the same rule to UDP. Don't worry, the test is quite reliable.
 
 My test passed, how can I bypass Web Auth?
 =====
