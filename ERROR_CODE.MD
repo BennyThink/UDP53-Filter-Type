@@ -1,6 +1,6 @@
 ## What's this?
 Error code when testing, for Windows and Linux(macOS not tested.)
-
+Reference `socket.py` for more information.
 ## Error code when you may wanna try OpenVPN
 ### Linux
 `[Errno 111] Connection refused`
