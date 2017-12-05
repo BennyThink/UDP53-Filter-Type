@@ -40,9 +40,8 @@ simply [click me](https://www.bennythink.com/udp53.html) for more info.
 
 
 ## I want to build exe file by myself. ##
-Ok, install Python and corresponding version of py2exe.
-Then cd to git directory, run:
-`python build_exe.py py2exe`
+Ok, install Python and corresponding version of [pyinstaller](https://sourceforge.net/projects/pywin32/files/pywin32/).
+Then run `build_exe.cmd`, you would get an single exe file.
 
 ## Environment ##
 Windows/Linux with Python 2.7 test passed.
