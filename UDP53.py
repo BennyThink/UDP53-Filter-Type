@@ -9,7 +9,7 @@ __author__ = 'Benny <benny@bennythink.com>'
 
 import socket
 
-HOST = '123.206.87.223'
+HOST = 'jbls.bennythink.com'
 PORT = 53
 
 
