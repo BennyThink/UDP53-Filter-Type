@@ -21,7 +21,7 @@ cd UDP53-Filter-Type
 python UDP53.py
 ```
 ### If not... ###
-(For Windows user only) Download and open the `dist` directory. By then you'll see an `udp.exe`.
+(For Windows user only) Download from release. By then you'll see an `udp.exe`.
 Double-click it!
 
 ### If you have Python...Option 2 ###
