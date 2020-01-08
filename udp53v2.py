@@ -74,6 +74,7 @@ def main():
     tcp()
     udp()
     print('\n\n')
+
     if 'success' in RESULTS[0]:
         print(SUCCESS.format(protocol='TCP', port=PORT))
     else:
