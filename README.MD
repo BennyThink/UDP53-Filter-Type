@@ -1,6 +1,9 @@
 ## What's this? ##
 This Python script is aimed to test your hotspot's interception/filter of UDP 53. Besides, DHCP(67/68) is also a good option.
 
+## v2
+Recommend to use `udp53v2.py`, python 3.6 or above only.
+
 ## What's the purpose? ##
 
 The good news is, if your hotspot DOES NOT filter any kind of UDP 53 Packet,
